@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141A51A2C212A6709BBF2FC3 /* libPods-XWGames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EF9876360BA97AD5DF0970 /* libPods-XWGames.a */; };
+		163FF5D91D1931D700D18846 /* XWHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 163FF5D81D1931D700D18846 /* XWHomeCell.m */; };
+		163FF5DE1D1939AC00D18846 /* XWTetrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163FF5DD1D1939AC00D18846 /* XWTetrisViewController.m */; };
+		169BAC891D19280100479159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BAC881D19280100479159 /* main.m */; };
+		169BAC8C1D19280100479159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BAC8B1D19280100479159 /* AppDelegate.m */; };
+		169BAC941D19280100479159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169BAC931D19280100479159 /* Assets.xcassets */; };
+		169BACA21D19280100479159 /* XWGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BACA11D19280100479159 /* XWGamesTests.m */; };
+		169BACAD1D19280200479159 /* XWGamesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BACAC1D19280200479159 /* XWGamesUITests.m */; };
+		169BACC01D19285200479159 /* XWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BACBF1D19285200479159 /* XWHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169BAC9E1D19280100479159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169BAC7C1D19280100479159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169BAC831D19280100479159;
+			remoteInfo = XWGames;
+		};
+		169BACA91D19280100479159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169BAC7C1D19280100479159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169BAC831D19280100479159;
+			remoteInfo = XWGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163FF5D61D192CAC00D18846 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		163FF5D71D1931D700D18846 /* XWHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWHomeCell.h; sourceTree = "<group>"; };
+		163FF5D81D1931D700D18846 /* XWHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWHomeCell.m; sourceTree = "<group>"; };
+		163FF5DA1D19386000D18846 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		163FF5DC1D1939AC00D18846 /* XWTetrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTetrisViewController.h; sourceTree = "<group>"; };
+		163FF5DD1D1939AC00D18846 /* XWTetrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTetrisViewController.m; sourceTree = "<group>"; };
+		169BAC841D19280100479159 /* XWGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169BAC881D19280100479159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		169BAC8A1D19280100479159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		169BAC8B1D19280100479159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		169BAC931D19280100479159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169BAC981D19280100479159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169BAC9D1D19280100479159 /* XWGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169BACA11D19280100479159 /* XWGamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWGamesTests.m; sourceTree = "<group>"; };
+		169BACA31D19280100479159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169BACA81D19280100479159 /* XWGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169BACAC1D19280200479159 /* XWGamesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWGamesUITests.m; sourceTree = "<group>"; };
+		169BACAE1D19280200479159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169BACBE1D19285200479159 /* XWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWHomeViewController.h; sourceTree = "<group>"; };
+		169BACBF1D19285200479159 /* XWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWHomeViewController.m; sourceTree = "<group>"; };
+		3F0B49FF99CD6239C8DA6973 /* Pods-XWGames.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWGames.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWGames/Pods-XWGames.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EF9876360BA97AD5DF0970 /* libPods-XWGames.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWGames.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F6A78461569A1CC3B2BB6C /* Pods-XWGames.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWGames.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWGames/Pods-XWGames.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169BAC811D19280100479159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141A51A2C212A6709BBF2FC3 /* libPods-XWGames.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BAC9A1D19280100479159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BACA51D19280100479159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13163E6964E11B56664999BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF9876360BA97AD5DF0970 /* libPods-XWGames.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		163FF5DB1D19398F00D18846 /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				163FF5DC1D1939AC00D18846 /* XWTetrisViewController.h */,
+				163FF5DD1D1939AC00D18846 /* XWTetrisViewController.m */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		169BAC7B1D19280100479159 = {
+			isa = PBXGroup;
+			children = (
+				169BAC861D19280100479159 /* XWGames */,
+				169BACA01D19280100479159 /* XWGamesTests */,
+				169BACAB1D19280200479159 /* XWGamesUITests */,
+				169BAC851D19280100479159 /* Products */,
+				221C35B48114B04DE019C241 /* Pods */,
+				13163E6964E11B56664999BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		169BAC851D19280100479159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169BAC841D19280100479159 /* XWGames.app */,
+				169BAC9D1D19280100479159 /* XWGamesTests.xctest */,
+				169BACA81D19280100479159 /* XWGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169BAC861D19280100479159 /* XWGames */ = {
+			isa = PBXGroup;
+			children = (
+				169BACBA1D19283900479159 /* Controllers */,
+				169BACBB1D19283900479159 /* Helps */,
+				169BACBC1D19283900479159 /* Models */,
+				169BACBD1D19283900479159 /* Views */,
+				169BAC871D19280100479159 /* Supporting Files */,
+			);
+			path = XWGames;
+			sourceTree = "<group>";
+		};
+		169BAC871D19280100479159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169BAC8A1D19280100479159 /* AppDelegate.h */,
+				169BAC8B1D19280100479159 /* AppDelegate.m */,
+				169BAC931D19280100479159 /* Assets.xcassets */,
+				169BAC981D19280100479159 /* Info.plist */,
+				169BAC881D19280100479159 /* main.m */,
+				163FF5D61D192CAC00D18846 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		169BACA01D19280100479159 /* XWGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				169BACA11D19280100479159 /* XWGamesTests.m */,
+				169BACA31D19280100479159 /* Info.plist */,
+			);
+			path = XWGamesTests;
+			sourceTree = "<group>";
+		};
+		169BACAB1D19280200479159 /* XWGamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169BACAC1D19280200479159 /* XWGamesUITests.m */,
+				169BACAE1D19280200479159 /* Info.plist */,
+			);
+			path = XWGamesUITests;
+			sourceTree = "<group>";
+		};
+		169BACBA1D19283900479159 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				163FF5DB1D19398F00D18846 /* Tetris */,
+				169BACBE1D19285200479159 /* XWHomeViewController.h */,
+				169BACBF1D19285200479159 /* XWHomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		169BACBB1D19283900479159 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				163FF5DA1D19386000D18846 /* Macros.h */,
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		169BACBC1D19283900479159 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		169BACBD1D19283900479159 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				163FF5D71D1931D700D18846 /* XWHomeCell.h */,
+				163FF5D81D1931D700D18846 /* XWHomeCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		221C35B48114B04DE019C241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B49FF99CD6239C8DA6973 /* Pods-XWGames.debug.xcconfig */,
+				B4F6A78461569A1CC3B2BB6C /* Pods-XWGames.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169BAC831D19280100479159 /* XWGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169BACB11D19280200479159 /* Build configuration list for PBXNativeTarget "XWGames" */;
+			buildPhases = (
+				1914B36663F03EF9CEC127ED /* [CP] Check Pods Manifest.lock */,
+				169BAC801D19280100479159 /* Sources */,
+				169BAC811D19280100479159 /* Frameworks */,
+				169BAC821D19280100479159 /* Resources */,
+				3D340BDA53DA9110D46D6340 /* [CP] Embed Pods Frameworks */,
+				7E1451C2BF544C02964836D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWGames;
+			productName = XWGames;
+			productReference = 169BAC841D19280100479159 /* XWGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169BAC9C1D19280100479159 /* XWGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169BACB41D19280200479159 /* Build configuration list for PBXNativeTarget "XWGamesTests" */;
+			buildPhases = (
+				169BAC991D19280100479159 /* Sources */,
+				169BAC9A1D19280100479159 /* Frameworks */,
+				169BAC9B1D19280100479159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169BAC9F1D19280100479159 /* PBXTargetDependency */,
+			);
+			name = XWGamesTests;
+			productName = XWGamesTests;
+			productReference = 169BAC9D1D19280100479159 /* XWGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169BACA71D19280100479159 /* XWGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169BACB71D19280200479159 /* Build configuration list for PBXNativeTarget "XWGamesUITests" */;
+			buildPhases = (
+				169BACA41D19280100479159 /* Sources */,
+				169BACA51D19280100479159 /* Frameworks */,
+				169BACA61D19280100479159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169BACAA1D19280100479159 /* PBXTargetDependency */,
+			);
+			name = XWGamesUITests;
+			productName = XWGamesUITests;
+			productReference = 169BACA81D19280100479159 /* XWGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169BAC7C1D19280100479159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GXW;
+				TargetAttributes = {
+					169BAC831D19280100479159 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					169BAC9C1D19280100479159 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 169BAC831D19280100479159;
+					};
+					169BACA71D19280100479159 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 169BAC831D19280100479159;
+					};
+				};
+			};
+			buildConfigurationList = 169BAC7F1D19280100479159 /* Build configuration list for PBXProject "XWGames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169BAC7B1D19280100479159;
+			productRefGroup = 169BAC851D19280100479159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169BAC831D19280100479159 /* XWGames */,
+				169BAC9C1D19280100479159 /* XWGamesTests */,
+				169BACA71D19280100479159 /* XWGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169BAC821D19280100479159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BAC941D19280100479159 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BAC9B1D19280100479159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BACA61D19280100479159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1914B36663F03EF9CEC127ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D340BDA53DA9110D46D6340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XWGames/Pods-XWGames-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1451C2BF544C02964836D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XWGames/Pods-XWGames-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169BAC801D19280100479159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BAC8C1D19280100479159 /* AppDelegate.m in Sources */,
+				163FF5DE1D1939AC00D18846 /* XWTetrisViewController.m in Sources */,
+				169BAC891D19280100479159 /* main.m in Sources */,
+				169BACC01D19285200479159 /* XWHomeViewController.m in Sources */,
+				163FF5D91D1931D700D18846 /* XWHomeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BAC991D19280100479159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BACA21D19280100479159 /* XWGamesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BACA41D19280100479159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BACAD1D19280200479159 /* XWGamesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169BAC9F1D19280100479159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169BAC831D19280100479159 /* XWGames */;
+			targetProxy = 169BAC9E1D19280100479159 /* PBXContainerItemProxy */;
+		};
+		169BACAA1D19280100479159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169BAC831D19280100479159 /* XWGames */;
+			targetProxy = 169BACA91D19280100479159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		169BACAF1D19280200479159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		169BACB01D19280200479159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169BACB21D19280200479159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0B49FF99CD6239C8DA6973 /* Pods-XWGames.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = XWGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oradt.XWGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169BACB31D19280200479159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F6A78461569A1CC3B2BB6C /* Pods-XWGames.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = XWGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oradt.XWGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		169BACB51D19280200479159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XWGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oradt.XWGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWGames.app/XWGames";
+			};
+			name = Debug;
+		};
+		169BACB61D19280200479159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XWGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oradt.XWGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWGames.app/XWGames";
+			};
+			name = Release;
+		};
+		169BACB81D19280200479159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XWGamesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oradt.XWGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XWGames;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		169BACB91D19280200479159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XWGamesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oradt.XWGamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XWGames;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169BAC7F1D19280100479159 /* Build configuration list for PBXProject "XWGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BACAF1D19280200479159 /* Debug */,
+				169BACB01D19280200479159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169BACB11D19280200479159 /* Build configuration list for PBXNativeTarget "XWGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BACB21D19280200479159 /* Debug */,
+				169BACB31D19280200479159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169BACB41D19280200479159 /* Build configuration list for PBXNativeTarget "XWGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BACB51D19280200479159 /* Debug */,
+				169BACB61D19280200479159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169BACB71D19280200479159 /* Build configuration list for PBXNativeTarget "XWGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BACB81D19280200479159 /* Debug */,
+				169BACB91D19280200479159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169BAC7C1D19280100479159 /* Project object */;
+}
