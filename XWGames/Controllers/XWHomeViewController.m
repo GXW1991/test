@@ -31,7 +31,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view).insets(UIEdgeInsetsMake(0, 0, 0, 0));
+        make.edges.equalTo(self.view).insets(UIEdgeInsetsZero);
     }];
 }
 

@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		141A51A2C212A6709BBF2FC3 /* libPods-XWGames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EF9876360BA97AD5DF0970 /* libPods-XWGames.a */; };
+		1629F3D11D1D24550013E081 /* XWTetrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1629F3CE1D1D24550013E081 /* XWTetrisViewController.m */; };
+		1629F3D41D1D26120013E081 /* XWTetrisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1629F3D31D1D26120013E081 /* XWTetrisModel.m */; };
 		163FF5D91D1931D700D18846 /* XWHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 163FF5D81D1931D700D18846 /* XWHomeCell.m */; };
-		163FF5DE1D1939AC00D18846 /* XWTetrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163FF5DD1D1939AC00D18846 /* XWTetrisViewController.m */; };
 		169BAC891D19280100479159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BAC881D19280100479159 /* main.m */; };
 		169BAC8C1D19280100479159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BAC8B1D19280100479159 /* AppDelegate.m */; };
 		169BAC941D19280100479159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169BAC931D19280100479159 /* Assets.xcassets */; };
@@ -36,12 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1629F3CD1D1D24550013E081 /* XWTetrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTetrisViewController.h; sourceTree = "<group>"; };
+		1629F3CE1D1D24550013E081 /* XWTetrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTetrisViewController.m; sourceTree = "<group>"; };
+		1629F3D21D1D26120013E081 /* XWTetrisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTetrisModel.h; sourceTree = "<group>"; };
+		1629F3D31D1D26120013E081 /* XWTetrisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTetrisModel.m; sourceTree = "<group>"; };
 		163FF5D61D192CAC00D18846 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		163FF5D71D1931D700D18846 /* XWHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWHomeCell.h; sourceTree = "<group>"; };
 		163FF5D81D1931D700D18846 /* XWHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWHomeCell.m; sourceTree = "<group>"; };
 		163FF5DA1D19386000D18846 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		163FF5DC1D1939AC00D18846 /* XWTetrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTetrisViewController.h; sourceTree = "<group>"; };
-		163FF5DD1D1939AC00D18846 /* XWTetrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTetrisViewController.m; sourceTree = "<group>"; };
 		169BAC841D19280100479159 /* XWGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169BAC881D19280100479159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		169BAC8A1D19280100479159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,11 +98,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1629F3CC1D1D24550013E081 /* TetrisControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1629F3CD1D1D24550013E081 /* XWTetrisViewController.h */,
+				1629F3CE1D1D24550013E081 /* XWTetrisViewController.m */,
+			);
+			path = TetrisControllers;
+			sourceTree = "<group>";
+		};
+		1629F3CF1D1D24550013E081 /* TetrisModels */ = {
+			isa = PBXGroup;
+			children = (
+				1629F3D21D1D26120013E081 /* XWTetrisModel.h */,
+				1629F3D31D1D26120013E081 /* XWTetrisModel.m */,
+			);
+			path = TetrisModels;
+			sourceTree = "<group>";
+		};
+		1629F3D01D1D24550013E081 /* TetrisViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TetrisViews;
+			sourceTree = "<group>";
+		};
+		1629F3D51D1D2FA20013E081 /* TetrisViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TetrisViewModels;
+			sourceTree = "<group>";
+		};
 		163FF5DB1D19398F00D18846 /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
-				163FF5DC1D1939AC00D18846 /* XWTetrisViewController.h */,
-				163FF5DD1D1939AC00D18846 /* XWTetrisViewController.m */,
+				1629F3D51D1D2FA20013E081 /* TetrisViewModels */,
+				1629F3CC1D1D24550013E081 /* TetrisControllers */,
+				1629F3CF1D1D24550013E081 /* TetrisModels */,
+				1629F3D01D1D24550013E081 /* TetrisViews */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -392,9 +429,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				169BAC8C1D19280100479159 /* AppDelegate.m in Sources */,
-				163FF5DE1D1939AC00D18846 /* XWTetrisViewController.m in Sources */,
+				1629F3D41D1D26120013E081 /* XWTetrisModel.m in Sources */,
 				169BAC891D19280100479159 /* main.m in Sources */,
 				169BACC01D19285200479159 /* XWHomeViewController.m in Sources */,
+				1629F3D11D1D24550013E081 /* XWTetrisViewController.m in Sources */,
 				163FF5D91D1931D700D18846 /* XWHomeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
